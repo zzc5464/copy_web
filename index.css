@@ -1,0 +1,409 @@
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			ul {
+				list-style: none;
+			}
+			
+			img {
+				vertical-align: top;
+			}
+			.clear {
+				clear: both;
+			}
+			.w {
+				width: 1000px;
+				margin: 0 auto;
+			}
+			/*nav*/
+			.header{
+				background-image: url(../img/jianbian.png);				
+			}
+			.nav{
+				height: 200px;
+			}
+			.return{
+				float: right;
+			}
+			.return a{
+				text-decoration: none;
+				color: white;
+				margin:10px;
+				display: block;
+				float: right;
+				font-size: 14px;
+			}
+			.return a:hover{
+				color: orange;
+			}
+			.nav-center{
+				line-height: 120px;
+				position: relative;
+			}
+			.company h1{
+				    float: left;
+    				font-size: 26px;
+    				font-weight: bold;
+    				font-family: 微软雅黑;
+    				color: white;
+			}
+			.numb{
+					position: absolute;
+					right: 15px;
+					bottom: -130px;
+					line-height: 40px;
+					float: right;
+					font-size: 26px;
+    				font-weight: bold;
+    				font-family: 微软雅黑;
+    				color: white;
+   			}
+   			.huang{
+   				color:#FF9A00;
+   				font-size: 22px;
+   			}
+   			.nav-bottom{
+   				position: absolute;
+   				width: 1000px;
+   				top: 160px;
+   			}
+   			.nav-bottom ul li{
+   				float: left;
+ 				margin-right: 10px; 
+ 				width: 90px;
+ 				height: 40px;
+ 				text-align: center;
+ 				line-height: 40px;			
+   			}
+   			.nav-bottom ul li a{
+   				text-decoration: none;
+   				color: white;
+   			}
+   			.nav-bottom ul li:hover{
+   				background-color: #004496;
+   			}
+   			
+			/*content*/
+			
+			.content {
+				height: 1070px;
+				/*background-color: #ccc;*/
+			}
+			/*solider*/
+			
+			.sliBox {
+				width: 1000px;
+				height: 330px;
+				position: relative;
+				overflow: hidden;
+				/*border: 1px solid teal;*/
+			}
+			
+			.w-slider {
+				width: 1000px;
+				height: 300px;
+			}
+			
+			.slider {
+				width: 2000px;
+				height: 300px;
+			}
+			
+			.slider-main {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 1000px;
+				height: 300px;
+			}
+			
+			.w-slider .slider-main img {
+				width: 100%;
+			}
+			/*小图标*/
+			
+			.slider-ctrl {
+				text-align: center;
+				padding-top: 5px;
+			}
+			
+			.slider-ctrl-con {
+				width: 24px;
+				height: 20px;
+				display: inline-block;
+				background: url(../img/nav-solid/icon.png) no-repeat -24px -782px;
+				margin: 0 5px;
+				cursor: pointer;
+				text-indent: -20em;
+				overflow: hidden;
+			}
+			
+			.ctrlCurrent {
+				background-position: -24px -762px;
+			}
+			
+			.slider-ctrl-prev,
+			.slider-ctrl-next {
+				position: absolute;
+				top: 50%;
+				margin-top: -35px;
+				background: url(../img/nav-solid/icon.png) no-repeat 6px top;
+				width: 30px;
+				height: 35px;
+				opacity: 0.8;
+				cursor: pointer;
+			}
+			
+			.slider-ctrl-prev {
+				left: 0;
+			}
+			
+			.slider-ctrl-next {
+				right: 0;
+				background-position: -6px -44px;
+			}
+			/*introduce*/
+			
+			.introduce {
+				height: 1089px;
+				/*background-color: #f00;*/
+				clear: both;
+			}
+			
+			.leftInt {
+				width: 705px;
+				height: 1064px;
+				/*background-color: teal;*/
+				float: left;
+			}
+			
+			.title {
+				width: 228px;
+				height: 42px;
+			}
+			
+			.leftInt .about {
+				padding-top: 20px;
+				height: 202px;
+				width: 705px;
+				/*background-color: #999;*/
+			}
+			
+			.about .aboutP {
+				width: 705px;
+				height: 140px;
+			}
+			
+			.about p {
+				width: 705px;
+				height: 140px;
+				padding: 10px;
+			}
+			
+			.leftInt .product {
+				width: 705px;
+				height: 820px;
+				/*background-color: #666;*/
+			}
+			
+			.product_slider {
+				width: 705px;
+				height: 820px;
+			}
+			
+			.proList {
+				height: 200px;
+				width: 100%;
+				/*background-color: #f99;*/
+				overflow: hidden;
+				padding-bottom: 5px;
+			}
+			
+			.proList ul {
+				width: 3000px;
+			}
+			
+			.proList ul li {
+				width: 75px;
+				height: 200px;
+				float: left;
+				/*background-color: teal;*/
+			}
+			/*無縫輪播圖*/
+			
+			.product_slider li:nth-of-type(2) {
+				position: relative;
+			}
+			
+			.product_slider li:nth-of-type(2) ul {
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 1000%;
+			}
+			
+			.product_slider li:nth-of-type(2) ul li {
+				float: left;
+				width: 300px;
+			}
+			
+			/*.proShow li {
+				width: 156px;
+				height: 118px;
+				padding: 10px;
+				float: left;
+				overflow: hidden;
+			}
+			
+			.proShow li img {
+				width: 100%;
+				cursor: pointer;
+			}*/
+			
+			/*.proShow {
+				width: 705px;
+				height: 400px;
+				overflow: hidden;
+			}
+			.proShow li {
+				width: 300px;
+				height: 200px;
+				padding: 5px;
+				position: relative;
+				float: left;
+			}
+			.proShow li h3 {
+				width: 300px;
+				height: 30px;
+				font: 16px/16px "微软雅黑";
+				text-align: center;
+			}
+			.proShow li img {
+				width: 150px;
+				height: 112px;
+				position: absolute;
+				left: 25%;
+			}*/
+			.proShow {
+				width: 705px;
+				height: 400px;
+				overflow: hidden;
+			}
+			.proShow li {
+				width: 300px;
+				height: 200px;
+				padding: 5px;
+				position: relative;
+				float: left;
+			}
+			.proShow li h3 {
+				width: 300px;
+				height: 30px;
+				font: 16px/16px "微软雅黑";
+				text-align: center;
+			}
+			.proShow li img {
+				width: 150px;
+				height: 112px;
+				position: absolute;
+				left: 25%;
+			}
+			/*右邊的列表*/
+			
+			.rightLi {
+				height: 1056px;
+				float: right;
+			}
+			
+			.publics {
+				width: 238px;
+				border: 5px solid #ccc;
+			}
+			
+			.seek {
+				height: 536px;
+				clear: both;
+			}
+			
+			.seekTltie {
+				background-color: #0753ad;
+				width: 238px;
+				height: 39px;
+				color: white;
+				text-align: center;
+				font: 16px/39px "微软雅黑";
+			}
+			
+			.seekContent {
+				padding: 13px 0 0 27px;
+				line-height: 24px;
+			}
+			
+			.seekContent li {
+				font-size: 13px;
+				color: #000;
+				cursor: pointer;
+			}
+			
+			.seek input {
+				width: 130px;
+				margin: 20px 0 0 5px;
+				padding-left: 5px;
+				font-size: 14px;
+				color: #ccc;
+			}
+			
+			.news {
+				width: 238px;
+			}
+			
+			.news ul {
+				padding: 5px;
+			}
+			
+			.news li {
+				text-align: left;
+				cursor: pointer;
+			}
+			
+			.connection {
+				width: 252px;
+				height: 310px;
+				background: url(../img/index/phone.png) no-repeat;
+			}
+			.connection .phone {
+				padding: 100px 0 0 10px;
+			}
+			.connection .phone p{
+				padding-bottom: 5px;
+			}
+			/*尾部*/
+			.bottom-top{
+				height: 20px;
+				background-color: #003D8B;
+				padding-left: 15px;
+				color: white;
+			}
+			.bottom{
+				height: 100px;
+				padding: 20px 15px;
+				font: 15px/24px  "微软雅黑";
+				text-align: center;
+			}
+			.bottom a:hover{
+				color: orange;
+			}
+			.bottom a{
+				padding-right: 15px;
+				cursor: pointer;
+			}
+			.returntop a{
+				text-decoration: none;
+				color: #333;
+			}
+			.bottom-top{
+				margin-top: 30px;
+			}
+
